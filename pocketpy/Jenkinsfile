@@ -15,7 +15,7 @@ pipeline {
                 echo 'Running the Hello World Python script...'
                 
                 // Run the Python script
-                sh 'python3 hello.py'
+                sh 'python hello.py'
             }
         }
     }
